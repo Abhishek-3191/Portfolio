@@ -12,7 +12,7 @@ const HeroText = () => {
     <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
       {/* Desktop View */}
       <div className="flex-col hidden md:flex c-space">
-        <section className="relative flex flex-col items-center justify-center min-h-screen">
+        {/* <section className="relative flex flex-col items-center justify-center min-h-screen"> */}
         <motion.h1
           className="text-4xl font-medium"
           variants={variants}
@@ -20,11 +20,11 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi I'm Ali
+          Hi I'm Abhishek
         </motion.h1>
-        </section>
+        {/* </section> */}
         <div className="flex flex-col items-start">
-            <section className="relative flex flex-col items-center justify-center min-h-screen">
+            {/* <section className="relative flex flex-col items-center justify-center min-h-screen"> */}
           <motion.p
             className="text-5xl font-medium text-neutral-300"
             variants={variants}
@@ -34,8 +34,8 @@ const HeroText = () => {
           >
             A Developer <br /> Dedicated to Crafting
           </motion.p>
-          </section>
-          <section className="relative flex flex-col items-center justify-center min-h-screen">
+          {/* </section> */}
+          {/* <section className="relative flex flex-col items-center justify-center min-h-screen"> */}
           <motion.div
             variants={variants}
             initial="hidden"
@@ -47,8 +47,8 @@ const HeroText = () => {
               className="font-black text-white text-8xl"
               />
           </motion.div>
-              </section>
-          <section className="relative flex flex-col items-center justify-center min-h-screen">
+              {/* </section> */}
+          {/* <section className="relative flex flex-col items-center justify-center min-h-screen"> */}
           <motion.p
             className="text-4xl font-medium text-neutral-300"
             variants={variants}
@@ -58,7 +58,7 @@ const HeroText = () => {
           >
             Web Solutions
           </motion.p>
-          </section>
+          {/* </section> */}
         </div>
       </div>
       {/* Mobile View */}
@@ -71,7 +71,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi,I'm Ali
+          Hi,I'm Abhishek
         </motion.p>
         </section>
         <div>
