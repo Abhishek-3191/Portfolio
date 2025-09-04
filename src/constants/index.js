@@ -5,40 +5,40 @@ export const myProjects = [
     description:
       "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+"Integrated Cloudinary services for seamless product image upload and management, optimizing storage and delivery.",
+"Implemented secure PayPal payment gateway for hassle-free checkout and transaction handling.",
+"Built an intuitive admin panel for managing products, users, and orders, enhancing operational control.",
+"Designed a responsive and dynamic frontend with React and Tailwind CSS, providing a user-friendly interface across devices."
     ],
-    href: "",
+    href: `https://ecommerce-deploy-2.onrender.com/`,
     logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
+    image: "/assets/projects/ecommerce.png",
+    // tags: [
+    //   {
+    //     id: 1,
+    //     name: "C#",
+    //     path: "/assets/logos/csharp.svg",
+    //   },
+    //   {
+    //     id: 2,
+    //     name: ".Net",
+    //     path: "/assets/logos/dotnet.svg",
+    //   },
+    //   {
+    //     id: 3,
+    //     name: "Ef Core",
+    //     path: "/assets/logos/efcore.png",
+    //   },
+    //   {
+    //     id: 4,
+    //     name: "TailwindCSS",
+    //     path: "/assets/logos/tailwindcss.svg",
+    //   },
+    // ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Airbnb rental app",
     description:
       "A secure authentication and authorization system using Auth0 for seamless user management.",
     subDescription: [
@@ -49,7 +49,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/airbnb.png",
     tags: [
       {
         id: 1,
@@ -75,7 +75,7 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Learning Management System",
     description:
       "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
     subDescription: [
@@ -86,7 +86,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/lms.png",
     tags: [
       {
         id: 1,
@@ -112,44 +112,44 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Flappy Bird",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A lightweight Js game engine designed for 2D game development.",
     subDescription: [
       "Built a powerful rendering engine using OpenGL and C++.",
       "Developed a physics engine with collision detection and particle effects.",
       "Implemented a scripting system for easy game customization.",
       "Optimized performance with multi-threading and efficient memory management.",
     ],
-    href: "",
+    href: "https://abhishek-3191.github.io/Flappy-bird/",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/flappybird.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "Javascript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "GitHub",
+        path: "/assets/logos/github.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Restaurant",
     description:
       "A fully customizable WordPress theme optimized for performance and SEO.",
     subDescription: [
@@ -158,27 +158,23 @@ export const myProjects = [
       "Optimized SEO and page speed using Vite.js for fast builds.",
       "Implemented custom widgets and plugin compatibility for extended functionality.",
     ],
-    href: "",
+    href: "https://abhishek-3191.github.io/Restaurant/",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/restaurant.png",
     tags: [
+     
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
         name: "HTML5",
         path: "/assets/logos/html5.svg",
       },
       {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
+        id: 2,
+        name: "Tailwindcss",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 4,
+        id: 3,
         name: "Vite.js",
         path: "/assets/logos/vitejs.svg",
       },
@@ -186,7 +182,7 @@ export const myProjects = [
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Chat App",
     description:
       "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
     subDescription: [
@@ -197,22 +193,22 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/chatapp.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "ReactJs",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "GitHub",
+        path: "/assets/logos/github.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "Firebase",
+        path: "/assets/logos/firebase.svg",
       },
       {
         id: 4,
