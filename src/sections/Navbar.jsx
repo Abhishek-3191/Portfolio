@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 function Navigation() {
   return (
     <ul className="nav-ul">
-      <li className="nav-li"><a className="nav-link" href="#home">Home</a></li>
+      <li className="nav-li"><a className="nav-link" href="/">Home</a></li>
       <li className="nav-li"><a className="nav-link" href="#about">About</a></li>
       <li className="nav-li"><a className="nav-link" href="#work">Work</a></li>
        <li className="nav-li"><a className="nav-link" href="#projects">Projects</a></li>
       <li className="nav-li"><a className="nav-link" href="#contact">Contact</a></li>
-
+                                
     </ul>
   );
 }
@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
-            href="/"
+           href="https://drive.google.com/file/d/1Nr6nlLYmnQXckYVLdAgZKr7IZZhdK24f/view?usp=drivesdk" download target="_blank" rel="noopener noreferrer"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
             Abhishek Srivastava
