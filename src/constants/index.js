@@ -12,101 +12,103 @@ export const myProjects = [
     ],
     href: `https://ecommerce-deploy-2.onrender.com/`,
     logo: "",
-    image: "/assets/projects/ecommerce.png",
-    // tags: [
-    //   {
-    //     id: 1,
-    //     name: "C#",
-    //     path: "/assets/logos/csharp.svg",
-    //   },
-    //   {
-    //     id: 2,
-    //     name: ".Net",
-    //     path: "/assets/logos/dotnet.svg",
-    //   },
-    //   {
-    //     id: 3,
-    //     name: "Ef Core",
-    //     path: "/assets/logos/efcore.png",
-    //   },
-    //   {
-    //     id: 4,
-    //     name: "TailwindCSS",
-    //     path: "/assets/logos/tailwindcss.svg",
-    //   },
-    // ],
-  },
-  {
-    id: 2,
-    title: "Airbnb rental app",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/airbnb.png",
+    image: "/assets/projects/ecommerce.png",  
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "Mongodb",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 2,
+        name: "Express",
+        path: "/assets/logos/express.svg",
+      },
+      {
+        id: 3,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
+        id: 4,
+        name: "Nodejs",
+        path: "/assets/logos/nodejs.svg",
+      },
+    ],
+  },
+    
+  {
+    id: 2,
+    title: "Airbnb rental app",
+    description:
+  "A full-stack Airbnb-style rental booking system with property listings, booking, and user management.",
+subDescription: [
+  "Developed a React.js frontend with Tailwind CSS for a responsive and modern UI.",
+  "Implemented Node.js and Express.js backend with RESTful APIs for core booking operations.",
+  "Integrated MongoDB for managing users, property listings, and reservation data.",
+  "Added secure authentication, role-based access, and booking workflows for seamless user experience.",
+],
+
+    href: " https://airbnb-k3zu.onrender.com/listings",
+    logo: "",
+    image: "/assets/projects/airbnb.png",
+     tags: [
+      {
+        id: 1,
+        name: "Mongodb",
+        path: "/assets/logos/mongodb.svg",
+      },
+      {
+        id: 2,
+        name: "Express",
+        path: "/assets/logos/express.svg",
+      },
+      {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "E6+",
+        path: "/assets/logos/ejs.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Nodejs",
+        path: "/assets/logos/nodejs.svg",
       },
     ],
   },
   {
     id: 3,
     title: "Learning Management System",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
+   description:
+  "A full-stack web application built with the MERN stack for scalability and performance.",
+subDescription: [
+  "Developed a responsive Single Page Application (SPA) using React.js and Tailwind CSS.",
+  "Implemented RESTful APIs with Node.js and Express.js for backend logic.",
+  "Integrated MongoDB for efficient data storage and retrieval.",
+  "Added JWT authentication and role-based access control for secure user management.",
+],
+    href: "https://www.github.com/Abishehk-3191/lms",
     logo: "",
     image: "/assets/projects/lms.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Mongodb",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Express",
+        path: "/assets/logos/express.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Nodejs",
+        path: "/assets/logos/nodejs.svg",
       },
     ],
   },
@@ -116,10 +118,10 @@ export const myProjects = [
     description:
       "A lightweight Js game engine designed for 2D game development.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+"Built a fully functional Flappy Bird clone using JavaScript and HTML.",
+"Implemented smooth bird physics with gravity and jump mechanics.",
+"Developed dynamic pipe generation with accurate collision detection.",
+"Optimized gameplay with responsive controls and efficient rendering."
     ],
     href: "https://abhishek-3191.github.io/Flappy-bird/",
     logo: "",
@@ -151,12 +153,12 @@ export const myProjects = [
     id: 5,
     title: "Restaurant",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+         "A modern static restaurant website built with Tailwind CSS for responsive design.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Developed a fully responsive static site using HTML5, CSS3, and JavaScript.",
+    "Styled the entire UI with Tailwind CSS for clean and modern aesthetics.",
+    "Optimized performance with lightweight code and fast-loading assets.",
+    "Implemented interactive menus and smooth animations for better user experience.",
     ],
     href: "https://abhishek-3191.github.io/Restaurant/",
     logo: "",
@@ -184,13 +186,13 @@ export const myProjects = [
     id: 6,
     title: "Chat App",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
+  "A real-time chat application with authentication, messaging, and backend console support.",
+subDescription: [
+  "Developed using React.js for a fast and responsive user interface.",
+  "Implemented Firebase Authentication for secure user login and signup.",
+  "Enabled real-time messaging with Firebase Firestore database integration.",
+  "Built an admin console to manage users, chats, and application settings.",
+], 
     href: "",
     logo: "",
     image: "/assets/projects/chatapp.png",
@@ -232,7 +234,7 @@ export const mySocials = [
   },
   {
     name: "Twitter",
-    href: "https://www.twitter.com/",
+    href: "https://x.com/Abhishek_3191",
     icon: "/assets/socials/twitter.svg",
   },
 ];
